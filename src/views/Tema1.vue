@@ -7,8 +7,8 @@
         span 1
       h1 Fundamentos de programación
     
-    p.mb-4 Los fundamentos de programación constituyen la base esencial para el desarrollo de #[i software] o sistemas de información, permitiendo a los programadores comprender cómo diseñar, estructurar y ejecutar soluciones computacionales eficientes según la necesidad del cliente. Estos fundamentos incluyen conceptos clave como algoritmos, estructuras de control, tipos de datos y lógica de programación, los cuales son necesarios para resolver problemas de manera sistemática.    
-    .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-5
+    p.mb-4(data-aos="flip-up") Los fundamentos de programación constituyen la base esencial para el desarrollo de #[i software] o sistemas de información, permitiendo a los programadores comprender cómo diseñar, estructurar y ejecutar soluciones computacionales eficientes según la necesidad del cliente. Estos fundamentos incluyen conceptos clave como algoritmos, estructuras de control, tipos de datos y lógica de programación, los cuales son necesarios para resolver problemas de manera sistemática.    
+    .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-5(data-aos="flip-up")
       .bloque-texto-gg__texto.p-4
         p.mb-4 Uno de los elementos principales en la programación es el algoritmo, que se define como una serie de pasos ordenados y finitos que permiten resolver un problema específico. Los algoritmos deben ser claros, precisos y eficientes, ya que de ellos depende el rendimiento del programa.
         p.mb-0 En la programación también se utilizan variables, que son espacios en memoria donde se almacenan datos que pueden cambiar durante la ejecución del programa. Estas variables tienen tipos de datos específicos como números, cadenas de texto o valores booleanos.
@@ -17,10 +17,10 @@
       )
 
     .row.justify-content-center.mb-4
-      .col-lg-8
+      .col-lg-8(data-aos="flip-up")
         p.mb-0 Las estructuras de control permiten dirigir el flujo del programa. Entre ellas se encuentran:
       
-    .tarjeta--container.row.mb-4
+    .tarjeta--container.row.mb-4(data-aos="flip-up")
       .col-md.tarjeta.tarjeta-bg2.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -47,13 +47,13 @@
         p Facilitan la ejecución de un bloque de instrucciones varias veces, mientras se cumpla una condición o durante un número definido de iteraciones (for, while).
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10
+      .col-lg-10(data-aos="flip-up")
         p.mb-4 Otro aspecto importante es la sintaxis, que corresponde a las reglas que definen cómo se debe escribir el código en un lenguaje de programación. Una sintaxis incorrecta genera errores que impiden la ejecución del programa.
         p.mb-4 La lógica de programación es fundamental, ya que permite construir soluciones coherentes. Un programa puede estar bien escrito sintácticamente, pero si su lógica es incorrecta, no producirá los resultados esperados.
         p.mb-0 Los lenguajes de programación se clasifican en:
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="flip-up")
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
@@ -61,7 +61,7 @@
             .p-4
               h5 Compilados
               p Necesitan que el código fuente sea traducido completamente a código máquina antes de ejecutarse. Este proceso genera un archivo ejecutable, mejora el rendimiento del programa y permite detectar muchos errores antes de la ejecución.
-      .col-lg-6
+      .col-lg-6(data-aos="flip-up")
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
@@ -69,25 +69,25 @@
             .p-4
               h5 Interpretados
               p Se ejecutan a través de un intérprete que traduce y ejecuta el código instrucción por instrucción en tiempo real. Esto facilita la prueba, la corrección de errores y la adaptación del programa a distintos entornos.
-    p El desarrollo de habilidades en programación también implica el uso de buenas prácticas como la documentación del código, el uso de nombres descriptivos para variables y funciones, y la organización adecuada del proyecto.
-    p.mb-0 Finalmente, comprender los fundamentos de programación es esencial para avanzar hacia temas más complejos como estructuras de datos, desarrollo #[i web], inteligencia artificial y sistemas distribuidos.
+    p(data-aos="flip-up") El desarrollo de habilidades en programación también implica el uso de buenas prácticas como la documentación del código, el uso de nombres descriptivos para variables y funciones, y la organización adecuada del proyecto.
+    p.mb-0(data-aos="flip-up") Finalmente, comprender los fundamentos de programación es esencial para avanzar hacia temas más complejos como estructuras de datos, desarrollo #[i web], inteligencia artificial y sistemas distribuidos.
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Conceptos básicos de programación
-    p.mb-4 Para desglosar un poco esta temática, se invita a acceder a al siguiente video introductorio, en el cual se presentan de manera general los conceptos básicos de la programación. A través de explicaciones claras y ejemplos sencillos, se aborda qué es un programa, cómo se estructuran los algoritmos y cuál es el papel de las variables y los datos, proporcionando una base conceptual para el estudio de la programación:
+    p.mb-4(data-aos="fade-right") Para desglosar un poco esta temática, se invita a acceder a al siguiente video introductorio, en el cual se presentan de manera general los conceptos básicos de la programación. A través de explicaciones claras y ejemplos sencillos, se aborda qué es un programa, cómo se estructuran los algoritmos y cuál es el papel de las variables y los datos, proporcionando una base conceptual para el estudio de la programación:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         figure(data-aos="zoom-in")
           .video
             iframe(width="1401" height="788" src="https://www.youtube.com/embed/S2n1fsyxr4U" title="Conceptos básicos de programación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-    p.mb-4 Ejemplos de tipos de datos que existen en lenguajes de programación son: 
+    p.mb-4(data-aos="fade-right") Ejemplos de tipos de datos que existen en lenguajes de programación son: 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
           span Tipos de datos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         .tabla-a.color-acento-contenido 
           .tabla-a     
             table
@@ -166,14 +166,14 @@
 
     .BG01.px-5
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-10
+        .col-lg-10(data-aos="fade-right")
           p Los operadores permiten realizar operaciones sobre los datos, existen operadores aritméticos, relacionales y lógicos que permiten construir expresiones más complejas.
           p.mb-0 Estos son algunos Ejemplos:
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4
           figure
             img(src='@/assets/curso/temas/tema1/img7.png', alt='')
-        .col-lg-6
+        .col-lg-6(data-aos="fade-right")
           LineaTiempoD.color-acento-botones
             .row(numero="1" titulo="Operadores aritméticos")
                 p.text-small.mb-0 Se utilizan para realizar operaciones matemáticas básicas.
@@ -200,7 +200,7 @@
         .col-lg-10
           p.mb-0 Por su parte, las estructuras de control son fundamentales para dirigir el flujo del programa. Estas incluyen estructuras condicionales como:
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-6
+        .col-lg-6(data-aos="fade-right")
           LineaTiempoD.color-acento-botones
             .row(numero="1" titulo="if")
                 p.text-small.mb-0 1.INICIO
@@ -231,14 +231,14 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/temas/tema1/img8.png', alt='')
-    p Además, la programación requiere seguir buenas prácticas como la correcta indentación del código, el uso de nombres significativos y la documentación mediante comentarios.
-    p.mb-4 Finalmente, comprender estos conceptos básicos es esencial para avanzar hacia temas más complejos en ingeniería de #[i software]. Es importante tener en cuenta los elementos de la programación:
+    p(data-aos="fade-right") Además, la programación requiere seguir buenas prácticas como la correcta indentación del código, el uso de nombres significativos y la documentación mediante comentarios.
+    p.mb-4(data-aos="fade-right") Finalmente, comprender estos conceptos básicos es esencial para avanzar hacia temas más complejos en ingeniería de #[i software]. Es importante tener en cuenta los elementos de la programación:
 
     .row.justify-content-center.BG02.p-4.mb-4
       .col-lg-4
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img9.png", alt="alt").img400.m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         
         SlyderF.p-4.mb-4(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--slyder.p-4
@@ -279,7 +279,7 @@
             p.text-center.mb-5 Reutilización de código.
     
     .row.justify-content-center.align-items-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         p El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
         p.mb-4 Se debe tener presente:
 
@@ -329,15 +329,15 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Tipos de lenguajes de programación: compilados e interpretados
 
-    p.mb-4 En el ámbito de la ingeniería de #[i software], los lenguajes de programación se clasifican comúnmente según la forma en que su código es ejecutado. Dos de las categorías más importantes son los lenguajes compilados e interpretados. Esta clasificación influye directamente en el rendimiento, portabilidad, seguridad y proceso de desarrollo del #[i software].
+    p.mb-4(data-aos="fade-right") En el ámbito de la ingeniería de #[i software], los lenguajes de programación se clasifican comúnmente según la forma en que su código es ejecutado. Dos de las categorías más importantes son los lenguajes compilados e interpretados. Esta clasificación influye directamente en el rendimiento, portabilidad, seguridad y proceso de desarrollo del #[i software].
     
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Lenguajes compilados
 
-    p.mb-4 Este tipo de lenguaje es aquel en el que el programa escrito por el desarrollador (código fuente) se traduce completamente a lenguaje máquina antes de ejecutarse, mediante una herramienta llamada compilador. Este proceso genera un archivo ejecutable que puede correr directamente en el sistema sin necesidad del código original.
-    p.mb-4 A diferencia de otros tipos de lenguajes, en los compilados la traducción ocurre una sola vez antes de la ejecución, lo que permite que el programa funcione de manera más rápida y eficiente, ya que el computador entiende directamente las instrucciones generadas.
-    .tarjeta-bg2.p-4.mb-5
+    p.mb-4(data-aos="fade-right") Este tipo de lenguaje es aquel en el que el programa escrito por el desarrollador (código fuente) se traduce completamente a lenguaje máquina antes de ejecutarse, mediante una herramienta llamada compilador. Este proceso genera un archivo ejecutable que puede correr directamente en el sistema sin necesidad del código original.
+    p.mb-4(data-aos="fade-right") A diferencia de otros tipos de lenguajes, en los compilados la traducción ocurre una sola vez antes de la ejecución, lo que permite que el programa funcione de manera más rápida y eficiente, ya que el computador entiende directamente las instrucciones generadas.
+    .tarjeta-bg2.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-lg-10
           p.mb-3 Sus características son:
@@ -367,9 +367,9 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Lenguajes interpretados
-    p.mb-4 Un lenguaje interpretado es aquel en el que el código fuente se ejecuta línea por línea en tiempo real, mediante un programa llamado intérprete, sin necesidad de generar previamente un archivo ejecutable.
-    p.mb-4 En este tipo de lenguajes, el código no se traduce completamente antes de ejecutarse, sino que el intérprete va leyendo, traduciendo y ejecutando cada instrucción al momento. Esto permite una mayor flexibilidad y facilita la prueba y corrección de errores durante el desarrollo.
-    .tarjeta-bg3.p-4.mb-4
+    p(data-aos="fade-right") Un lenguaje interpretado es aquel en el que el código fuente se ejecuta línea por línea en tiempo real, mediante un programa llamado intérprete, sin necesidad de generar previamente un archivo ejecutable.
+    p.mb-4(data-aos="fade-right") En este tipo de lenguajes, el código no se traduce completamente antes de ejecutarse, sino que el intérprete va leyendo, traduciendo y ejecutando cada instrucción al momento. Esto permite una mayor flexibilidad y facilita la prueba y corrección de errores durante el desarrollo.
+    .tarjeta-bg3.p-4.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-lg-10
           p Por ejemplo, en lenguajes como JavaScript o Python, se puede escribir una instrucción y ejecutarla inmediatamente sin necesidad de compilar todo el programa.
@@ -399,7 +399,7 @@
           p.mb-0 En los lenguajes interpretados, el intérprete analiza y ejecuta el código en tiempo real. Esto facilita la experimentación y el desarrollo rápido, aunque puede implicar menor rendimiento en comparación con los compilados. 
 
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         p.mb-4 La siguiente tabla, relaciona un poco cada proceso que diferencia cada uno de estos lenguajes:
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-12
@@ -468,11 +468,11 @@
         p.text-center.mb-0 El proceso de desarrollo también cambia: los lenguajes interpretados permiten pruebas rápidas sin necesidad de compilación.
     
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         p.mb-0 Los compiladores modernos también incluyen herramientas de análisis estático para mejorar la calidad del código, comprender estas diferencias permite seleccionar la mejor tecnología para cada tipo de solución.
     
     .row.justify-content-center.align-items-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .cajon-color-primario.p-4
           .row.justify-content-center.align-items-center
             .col-lg-auto.d-none.d-lg-block

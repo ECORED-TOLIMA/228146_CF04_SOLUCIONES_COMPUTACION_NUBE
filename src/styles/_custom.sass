@@ -46,7 +46,8 @@
 
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #000000
-
+.barra-avance__boton--regresar span
+  color: #FFFFFF !important
 .bloque-texto-ggg-imagen.color-primario
   background-color: #D5F4F8
 .bloque-texto-gg.color-primario
@@ -91,7 +92,17 @@
   .bloque-texto-gg__img
     left: auto
     right: 0
-
+.bloque-texto-gg__img1 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+.bloque-texto-gg__texto1
+  position: relative
+  width: 50%
 .BG01
   background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
   background-size: cover
@@ -108,7 +119,6 @@
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
-
 .BG03
   background-color: #F1E6EF
   background-size: cover
@@ -124,6 +134,15 @@
   margin-inline: -2.7rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
+
+.BG05
+  background-image: url("../assets/curso/temas/tema3/imgfondo3.svg")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -2.7rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
 .tarjeta-bg1
   background-color: #CFE8FF
 .tarjeta-bg2
@@ -158,6 +177,10 @@
 
 .cajon-color-secundario
   background-color:#CFE8FF
+.tarjeta--azul
+  background-color:#F1E6EF
+.tarjeta--azul.acordion__activo
+  background-color: #CFE8FF !important
 
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #6CB9FF
@@ -176,7 +199,15 @@ i.fas.fa-cloud-arrow-down
 
 .fa-chevron-right, .fa-chevron-left
   color: $color-acento_botones
-
+.titulo2
+  background-color:#FFF0C3
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  
 .titulo
   background-color:#FFE79E
   color: black
@@ -208,3 +239,124 @@ i.fas.fa-cloud-arrow-down
 .slyder-a__bullets__item--active
   background-color: #ae0000
   border: 1px solid #ae0000
+.acordion__accion__btn--b
+  background-color: #ae0000
+  border: 1px solid #ae0000
+  color: white
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #ae0000
+  border: 1px solid #ae0000
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: white
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #6CB9FF
+  background-color: #6CB9FF
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #6CB9FF
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #6CB9FF
+
+.tabs-c__tab
+  background-color: #9C2424
+  color: white
+
+.tabs-c__tab--active
+  background-color: #fff
+  color: black
+.tabs-c
+  background-color: #CFE8FF
+.tarjeta--fondo1
+  background-color: #CFE8FF
+.tarjeta--fondo2
+  background-color: #fff
+  border-radius: 15px
+.tarjeta--fondo3
+  background-color: #F1E6EF
+.tarjeta--fondo4
+  background-color: #344866
+.tarjeta--fondo5
+  background-color: #1E535A
+.tarjeta--fondo7
+  background-color: #FFF7DF
+.tarjeta--fondo8
+  background-color: #FFFDC8
+
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  height: 350px // Altura fija de la tarjeta para controlar el efecto
+  border-radius: 12px
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+  background-color: #fff
+  
+  &__img
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    transition: transform 0.5s ease // Suave zoom opcional en la imagen
+
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  // Contenedor lila (título + cuerpo)
+  &__content
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    background-color: #F0E9F0 // Color lila muy claro
+    padding: 20px
+    z-index: 2
+    transition: transform 0.4s ease-in-out // Animación de subida
+    
+    // Estado INICIAL: El panel sube solo lo suficiente para mostrar el título
+    // Ajusta este % dependiendo de la altura de tus títulos.
+    transform: translateY(calc(100% - 75px)) 
+
+    h5
+      color: #12263F
+      font-size: 1.1rem
+      padding-left: 45px // Espacio para el icono rojo
+      margin-bottom: 0
+      transition: margin 0.3s ease
+
+  // El texto descriptivo (se oculta inicialmente)
+  &__body
+    p
+      padding-left: 45px
+      font-size: 0.9em
+      line-height: 1.4em
+      color: #455A64
+      margin-top: 15px
+
+  // Icono rojo circular
+  &__icon
+    position: absolute
+    left: 15px
+    top: 20px
+    width: 30px
+    height: 30px
+    background-color: #B00B00 // Rojo oscuro
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    
+    i
+      color: #fff
+      font-size: 0.8rem
+
+  // --- EL EFECTO HOVER ---
+
+  &:hover
+    .tarjeta-foto-hover__content
+      // Sube completamente para mostrar todo el texto
+      transform: translateY(0) 
+
+    // Opcional: Un ligero zoom en la imagen de fondo
+    .tarjeta-foto-hover__img
+      transform: scale(1.05)
