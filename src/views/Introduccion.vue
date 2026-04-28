@@ -19,7 +19,7 @@
       .col-lg-12
         figure(data-aos="zoom-in")
           .video
-            iframe(width="1401" height="788" src="https://www.youtube.com/embed/S2n1fsyxr4U" title="Conceptos básicos de programación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1401" height="788" src="https://www.youtube.com/embed/2L91WMqw96A" title="Conceptos básicos de programación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
             
 </template>
 
