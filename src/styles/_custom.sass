@@ -40,9 +40,6 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important 
-
 .banner-interno__titulo__icono
     background-color: #000
     color: #000 !important
@@ -111,6 +108,22 @@
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
+
+.BG03
+  background-color: #F1E6EF
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BG04
+  background-image: url("../assets/curso/temas/tema2/imgfondo2.svg")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -2.7rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 .tarjeta-bg1
   background-color: #CFE8FF
 .tarjeta-bg2
@@ -121,6 +134,12 @@
   background-color:#FFE79E
 .tarjeta-bg5
   background-color:#69D7E5
+.tarjeta-bg6
+  background-color:#D5F4F8
+.tarjeta-bg7
+  background-color:#FFF7DF
+.tarjeta-bg8
+  background-color: #F1E6EF
 .tarjeta--tabla:nth-child(even)
   background-color: #FFF7DF
 
@@ -137,6 +156,9 @@
 .cajon-color-primario
   background-color: #D5F4F8
 
+.cajon-color-secundario
+  background-color:#CFE8FF
+
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #6CB9FF
 .linea-tiempo-d
@@ -147,7 +169,8 @@
   background-color: #CFE8FF
 .linea-tiempo-d__item__content__slot
   background-color: #CFE8FF
-
+linea-tiempo-d__item__number
+  background-color: $color-acento-botones !important
 i.fas.fa-cloud-arrow-down
   color :#FFB851
 
@@ -172,3 +195,16 @@ i.fas.fa-cloud-arrow-down
   height: 45px
   margin-right: 10px
   margin-left: -10px
+
+.slyder__btn
+  background-color: $color-acento-botones
+  .fa-angle-right, .fa-angle-left
+    color: $white
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #ae0000
+  border: 1px solid #ae0000
+
+.slyder-a__bullets__item--active
+  background-color: #ae0000
+  border: 1px solid #ae0000

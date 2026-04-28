@@ -7,9 +7,7 @@
         span 1
       h1 Fundamentos de programación
     
-    p.mb-4 Los fundamentos de programación constituyen la base esencial para el desarrollo de #[i software] o sistemas de información, permitiendo a los programadores comprender cómo diseñar, estructurar y ejecutar soluciones computacionales eficientes según la necesidad del cliente. Estos fundamentos incluyen conceptos clave como algoritmos, estructuras de control, tipos de datos y lógica de programación, los cuales son necesarios para resolver problemas de manera sistemática.
-
-    
+    p.mb-4 Los fundamentos de programación constituyen la base esencial para el desarrollo de #[i software] o sistemas de información, permitiendo a los programadores comprender cómo diseñar, estructurar y ejecutar soluciones computacionales eficientes según la necesidad del cliente. Estos fundamentos incluyen conceptos clave como algoritmos, estructuras de control, tipos de datos y lógica de programación, los cuales son necesarios para resolver problemas de manera sistemática.    
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-5
       .bloque-texto-gg__texto.p-4
         p.mb-4 Uno de los elementos principales en la programación es el algoritmo, que se define como una serie de pasos ordenados y finitos que permiten resolver un problema específico. Los algoritmos deben ser claros, precisos y eficientes, ya que de ellos depende el rendimiento del programa.
@@ -72,7 +70,7 @@
               h5 Interpretados
               p Se ejecutan a través de un intérprete que traduce y ejecuta el código instrucción por instrucción en tiempo real. Esto facilita la prueba, la corrección de errores y la adaptación del programa a distintos entornos.
     p El desarrollo de habilidades en programación también implica el uso de buenas prácticas como la documentación del código, el uso de nombres descriptivos para variables y funciones, y la organización adecuada del proyecto.
-    p.mb-0 Finalmente, comprender los fundamentos de programación es esencial para avanzar hacia temas más complejos como estructuras de datos, desarrollo web, inteligencia artificial y sistemas distribuidos.
+    p.mb-0 Finalmente, comprender los fundamentos de programación es esencial para avanzar hacia temas más complejos como estructuras de datos, desarrollo #[i web], inteligencia artificial y sistemas distribuidos.
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Conceptos básicos de programación
@@ -94,7 +92,7 @@
           .tabla-a     
             table
               thead
-                tr
+                tr.tarjeta-bg7
                   th.text-center Tipo de dato
                   th.text-center Representación
                   th.text-center Tamaño (bytes)
@@ -414,7 +412,7 @@
               .tabla-a   
                 table
                   thead
-                    tr
+                    tr.tarjeta-bg7
                       th Característica
                       th Compilados
                       th Interpretados
@@ -457,7 +455,7 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/img20.svg' alt="Imagen decorativa")
-        p.text-center.mb-0 En aplicaciones web y análisis de datos, los lenguajes interpretados ofrecen mayor productividad.
+        p.text-center.mb-0 En aplicaciones #[i web] y análisis de datos, los lenguajes interpretados ofrecen mayor productividad.
       .col-lg.col-md-6.tarjeta--tabla.tarjeta--tabla3.p-4(data-aos="flip-left")
         .row.justify-content-center.mb-3
           .col-4
