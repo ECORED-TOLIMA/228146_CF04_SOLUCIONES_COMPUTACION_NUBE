@@ -53,7 +53,7 @@
         p.mb-0 Los lenguajes de programación se clasifican en:
 
     .row.mb-4
-      .col-lg-6(data-aos="flip-up")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
@@ -170,7 +170,7 @@
           p Los operadores permiten realizar operaciones sobre los datos, existen operadores aritméticos, relacionales y lógicos que permiten construir expresiones más complejas.
           p.mb-0 Estos son algunos Ejemplos:
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-4
+        .col-lg-4.col-8.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/img7.png', alt='')
         .col-lg-6(data-aos="fade-right")
@@ -200,7 +200,7 @@
         .col-lg-10
           p.mb-0 Por su parte, las estructuras de control son fundamentales para dirigir el flujo del programa. Estas incluyen estructuras condicionales como:
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-6(data-aos="fade-right")
+        .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
           LineaTiempoD.color-acento-botones
             .row(numero="1" titulo="if")
                 p.text-small.mb-0 1.INICIO
@@ -228,14 +228,14 @@
                 p.text-small.mb-0 6.FIN MIENTRAS
                 p.text-small.mb-0 7.Mostrar "Número válido"
                 p.text-small.mb-0 8.FIN
-        .col-lg-4
+        .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/tema1/img8.png', alt='')
     p(data-aos="fade-right") Además, la programación requiere seguir buenas prácticas como la correcta indentación del código, el uso de nombres significativos y la documentación mediante comentarios.
     p.mb-4(data-aos="fade-right") Finalmente, comprender estos conceptos básicos es esencial para avanzar hacia temas más complejos en ingeniería de #[i software]. Es importante tener en cuenta los elementos de la programación:
 
     .row.justify-content-center.BG02.p-4.mb-4
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img9.png", alt="alt").img400.m-auto
       .col-lg-8(data-aos="fade-right")
@@ -343,7 +343,7 @@
           p.mb-3 Sus características son:
           .tarjeta--slyder.p-3.mb-3
             .row.justify-content-center.align-items-center
-              .col-lg-2
+              .col-lg-2.d-none.d-lg-block
                 img(src="@/assets/curso/temas/tema1/img17.svg", alt="alt").img100.m-auto
               .col-lg-10
                 ul.lista-ul
@@ -376,7 +376,7 @@
           p.mb-4 Sus características son:
           .tarjeta--slyder.p-4.mb-4
             .row.justify-content-center.align-items-center
-              .col-lg-2
+              .col-lg-2.d-none.d-lg-block
                 img(src="@/assets/curso/temas/tema1/img18.svg", alt="alt").img100.m-auto
               .col-lg-10
                 ul.lista-ul

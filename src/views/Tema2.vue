@@ -11,7 +11,7 @@
     p.mb-4 Un entorno de desarrollo es el conjunto de herramientas que permiten a los programadores crear #[i software] de forma eficiente. Estos entornos pueden variar desde editores simples hasta plataformas altamente integradas; encontrando:
 
     .row.justify-content-center.BG02.p-4
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema2/img1.png", alt="alt").img400.m-auto
       .col-lg-8
@@ -193,7 +193,7 @@
        
     .BG01.px-5
       .row.justify-content-center.align-items-center.mb-5
-          .col-lg-5
+          .col-lg-5.col-10.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema2/img11.png', width='180', alt='Texto que describa la imagen')
           .col-lg-5
@@ -279,7 +279,7 @@
        
         LineaTiempoE.color-acento-contenido
           .row(titulo="1")
-            .col-lg-2
+            .col-lg-2.col-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img17.svg', alt='Texto que describa la imagen')
             .col-lg-9.mb-4.mb-lg-0
@@ -287,7 +287,7 @@
               p En primer lugar, en la definición del proyecto de #[i software] se debe describir de forma clara la idea general, explicando la funcionalidad principal del sistema de información y el problema que busca resolver. Asimismo, es necesario establecer los objetivos del desarrollo, indicando la necesidad que cubre el sistema, e identificar a los usuarios o entidades que interactuarán con él, junto con el nivel de experiencia del público al que está dirigido el informe.
 
           .row(titulo="2")
-            .col-lg-2
+            .col-lg-2.col-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img18.svg', alt='Texto que describa la imagen')
             .col-lg-9.mb-4.mb-lg-0
@@ -295,7 +295,7 @@
               p A partir de esta base, la especificación de requerimientos debe detallar las pautas generales que rigen el funcionamiento del proyecto y los requisitos funcionales que describen los servicios, tareas y comportamientos que el sistema debe realizar. De igual manera, se debe aclarar la autoría del #[i software], indicando si se trata de un desarrollo original o si forma parte de un sistema preexistente, además de definir los alcances y limitaciones del sistema en coherencia con los objetivos establecidos.
           
           .row(titulo="3")
-            .col-lg-2
+            .col-lg-2.col-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img19.svg', alt='Texto que describa la imagen')
             .col-lg-9.mb-4.mb-lg-0
@@ -303,7 +303,7 @@
               p Posteriormente, en los procedimientos de desarrollo del sistema de información se describen las herramientas y tecnologías empleadas, tales como entornos de desarrollo integrados, plataformas y lenguajes de programación necesarios para la implementación. Junto con ello, se presenta una planificación general que expone la metodología utilizada y los principales pasos seguidos durante la ejecución del proyecto.
           
           .row(titulo="4")
-            .col-lg-2
+            .col-lg-2.col-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img20.svg', alt='Texto que describa la imagen')
             .col-lg-9.mb-4.mb-lg-0
@@ -315,7 +315,7 @@
     p Un #[i software] de tamaño pequeño se identifica de la composición de varios módulos o partes interconectados de alguna forma. La especificación de la arquitectura del sistema de información de los cuáles son estas partes; qué rol tienen dentro del #[i software] y la forma en que se organizan e interconectan.
     p.mb-4 La información sobre la arquitectura debe incluir como mínimo:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img21.png', alt='')
       .col-lg-8
@@ -396,41 +396,40 @@
           p Para llevar a cabo esta tarea, es posible utilizar una variedad de herramientas de generación de documentación automática, a partir del código en el encabezado de cada función (Javadoc, PHPDoc, Doxygen, etc).
           p.mb-0 La documentación técnica debe pensarse como el manual del programador y apuntar a aquellas personas que estarán a cargo de mantener, ampliar o crear un proyecto derivado a partir de nuestro proyecto.
     p.mb-4.text-center Para finalizar, se dan los siguientes aspectos relevantes que se deben tener presentes:
-    .BG04.p-4.px-5
-      .p-5
-        SlyderA(tipo="b")
-          .row
-            .col-lg-6.mb-4.mb-md-0
-              h4 Guía de uso del programa
-              p Indicar de forma clara cómo ejecutar el programa, especificando los parámetros obligatorios y opcionales, la función de cada uno y el comportamiento por defecto cuando no se proporcionan. Esta información constituye la base del manual de usuario final de la aplicación.
+    .BG04.p-5.px-5
+      SlyderA(tipo="b")
+        .row
+          .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+            h4 Guía de uso del programa
+            p Indicar de forma clara cómo ejecutar el programa, especificando los parámetros obligatorios y opcionales, la función de cada uno y el comportamiento por defecto cuando no se proporcionan. Esta información constituye la base del manual de usuario final de la aplicación.
 
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img25.png', alt='Texto que describa la imagen')
-          .row
-            .col-lg-6.mb-4.mb-md-0
-              h4 Descripción de la solución y arquitectura
-              p Incorporar diagramas de flujo y explicaciones a nivel de método que describan la estrategia general de resolución del problema. Debe mostrarse cómo se organiza la solución y cómo interactúan los distintos módulos entre sí, permitiendo comprender la lógica global del sistema sin necesidad de revisar el código.
+          .col-lg-6.order-1.order-lg-2.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img25.png', alt='Texto que describa la imagen')
+        .row
+          .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+            h4 Descripción de la solución y arquitectura
+            p Incorporar diagramas de flujo y explicaciones a nivel de método que describan la estrategia general de resolución del problema. Debe mostrarse cómo se organiza la solución y cómo interactúan los distintos módulos entre sí, permitiendo comprender la lógica global del sistema sin necesidad de revisar el código.
 
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img26.png', alt='Texto que describa la imagen')
-          .row
-            .col-lg-6.mb-4.mb-md-0
-              h4 Documentación de tipos de datos abstractos
-              p Los tipos de datos abstractos deben estar correctamente documentados en el código y descritos en el manual, indicando cómo se representa cada estructura, cuáles son sus limitaciones y qué métodos ofrece para la manipulación y gestión de los datos, facilitando su uso y mantenimiento.
+          .col-lg-6.order-1.order-lg-2.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img26.png', alt='Texto que describa la imagen')
+        .row
+          .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+            h4 Documentación de tipos de datos abstractos
+            p Los tipos de datos abstractos deben estar correctamente documentados en el código y descritos en el manual, indicando cómo se representa cada estructura, cuáles son sus limitaciones y qué métodos ofrece para la manipulación y gestión de los datos, facilitando su uso y mantenimiento.
 
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img27.png', alt='Texto que describa la imagen')
-          .row
-            .col-lg-6.mb-4.mb-md-0
-              h4 Conclusiones y lecciones aprendidas
-              p Incluir una sección final donde se sinteticen las principales dificultades encontradas durante el desarrollo, las decisiones o políticas adoptadas para resolverlas, las restricciones del problema original, los casos particulares abordados y los aprendizajes obtenidos a partir de la experiencia del proyecto.
+          .col-lg-6.order-1.order-lg-2.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img27.png', alt='Texto que describa la imagen')
+        .row
+          .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+            h4 Conclusiones y lecciones aprendidas
+            p Incluir una sección final donde se sinteticen las principales dificultades encontradas durante el desarrollo, las decisiones o políticas adoptadas para resolverlas, las restricciones del problema original, los casos particulares abordados y los aprendizajes obtenidos a partir de la experiencia del proyecto.
 
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img28.png', alt='Texto que describa la imagen')
+          .col-lg-6.order-1.order-lg-2.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img28.png', alt='Texto que describa la imagen')
 
 </template>
 

@@ -109,14 +109,14 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
           .row.justify-content-center.align-items-center
-            .col-lg-8
+            .col-lg-8.order-2.order-lg-1
               .tarjeta--fondo4.p-2.mb-3
                 p.mb-0.text-center.text-white Ejemplo:
                 p.mb-0.text-center.text-white String[] arregloTextos = new String[7];
               p Para definir un arreglo, se indica el tipo de dato que contendrá. Luego, se agregan corchetes de apertura y cierre [ ].
               p En el anterior ejemplo, se utiliza String[] como tipo de arreglo. Posteriormente, se escribe el nombre con el cual se identificará el arreglo. Se añade el operador de asignación =, seguido de la palabra reservada new, y nuevamente el tipo de dato con sus corchetes, pero esta vez indicando dentro de ellos la longitud del arreglo. Para este caso, new String[7].
               p.mb-0 Un aspecto importante a considerar es que los arreglos pueden ser de cualquier tipo, incluyendo datos primitivos.
-            .col-lg-4
+            .col-lg-4.col-8.mb-3.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img400.m-auto
     .row.justify-content-center.align-items-center.mb-4
@@ -168,7 +168,7 @@
               i.fas.fa-cloud-arrow-down
               | El for permite recorrer todos los elementos.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5
+      .col-lg-5.col-10.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/tema4/img6.png", alt="alt").img400.m-auto
       .col-lg-5
@@ -189,7 +189,7 @@
     p.mb-4 Partiendo de lo anterior, se describen los aspectos fundamentales para trabajar con matrices en JavaScript, desde el acceso y recorrido de sus elementos hasta sus aplicaciones más comunes y algunas buenas prácticas que facilitan un uso correcto y eficiente de esta estructura de datos:
     
     .row.justify-content-center.BG02.p-4
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema4/img7.png", alt="alt").img400.m-auto
       .col-lg-8
@@ -275,7 +275,7 @@
       h5 Tipos de algoritmos de ordenamiento
     p.mb-4 Existen dos grandes categorías:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img13.svg' alt='AvatarTop')
@@ -342,7 +342,7 @@
         p.text-center #[b MergeSort]
         p.text-center O(n log n) - estable y eficiente.
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img19.png' alt='AvatarTop')
       .col-lg-6
@@ -359,15 +359,15 @@
       h2 4.3 Métodos de búsqueda para datos numéricos, textos y registros
 
     p.mb-4 En el desarrollo de #[i software], uno de los problemas más frecuentes consiste en localizar información dentro de un conjunto de datos. Este proceso se conoce como búsqueda y es fundamental en prácticamente cualquier aplicación informática, desde sistemas simples hasta plataformas complejas que manejan grandes volúmenes de información.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .cajon-color-primario.mb-4
-          .row.justify-content-center.align-items-center.mb-5
+        .cajon-color-primario.p-4.mb-4
+          .row.justify-content-center.align-items-center
             .col-lg-7
               p.mb-4
               p.mb-4 En JavaScript, los métodos de búsqueda permiten encontrar elementos específicos dentro de estructuras de datos, como arreglos u objetos. Estos elementos pueden ser de diferentes tipos, tales como datos numéricos, cadenas de texto o registros más complejos (por ejemplo, objetos que representan usuarios, productos o transacciones).
               p.mb-4 La importancia de los métodos de búsqueda radica en que permiten acceder de manera eficiente a la información, lo cual impacta directamente en el rendimiento y la experiencia del usuario. Por ejemplo, en una aplicación #[i web], cada vez que un usuario busca un producto, filtra resultados o accede a un registro específico, se está utilizando algún tipo de algoritmo o método de búsqueda.
-            .col-lg-3
+            .col-lg-3.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema4/img20.svg' alt='AvatarTop')   
         p.mb-4 Existen diferentes enfoques para realizar búsquedas, los cuales varían según la estructura de los datos y el contexto del problema. Entre los más comunes se encuentran:

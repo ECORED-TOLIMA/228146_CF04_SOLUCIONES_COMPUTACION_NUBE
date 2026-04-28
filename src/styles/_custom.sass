@@ -61,6 +61,15 @@
   background-position: center
   background-size: cover
 
+.bloque-texto-gg__img2
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
 .bloque-texto-gg
   position: relative
   display: flex
@@ -69,14 +78,49 @@
 .bloque-texto-gg__texto
   position: relative
   width: 75%
+.bloque-texto-gg__texto2
+  position: relative
+  width: 75%
+  
 .bloque-texto-gg--inverso
   justify-content: flex-start
 
 .bloque-texto-gg-imagen 
-  .bloque-texto-gg__img 
+  .bloque-texto-gg__img
     width: 36%
+  
   .bloque-texto-gg__texto
     width: 60%
+
+.bloque-texto-gg
+  @media (max-width: $bp-max-md)
+    padding-top: 40% !important
+    &__img
+      width: 100% !important
+      height: 50%
+    &__texto
+      margin-top: 40px !important
+      width: 100% !important
+    &__img1
+      width: 100% !important
+      height: 50%
+    &__img2
+      width: 25% !important
+      height: 25%
+    &__texto1
+      margin-top: 40px !important
+      width: 100% !important
+    &__texto2
+      margin-top: 0px !important
+      width: 74% !important
+
+  @media (max-width: $bp-max-xs)
+    padding-top: 200px !important
+    &__img
+      height: 250px
+    &__img1
+      height: 250px
+    
 
 .bloque-texto-ggg
   position: relative
@@ -128,18 +172,20 @@
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 .BG04
-  background-image: url("../assets/curso/temas/tema2/imgfondo2.svg")
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema2/imgfondo2.svg") 
+  background-size: cover
+  background-position: left top
   background-repeat: no-repeat
-  background-position: center
-  margin-inline: -2.7rem !important
-  @media (max-width: $bp-max-sm)
-    margin-inline: -1.5rem !important
+  border-radius: 15px
 
 .BG05
   background-image: url("../assets/curso/temas/tema3/imgfondo3.svg")
   background-repeat: no-repeat
   background-position: center
-  margin-inline: -2.7rem !important
+  background-size: cover
+  margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
@@ -194,6 +240,11 @@
   background-color: #CFE8FF
 linea-tiempo-d__item__number
   background-color: $color-acento-botones !important
+
+.tarjeta--gris.linea-tiempo-d__item__number
+  background-color: $color-acento-botones
+  color: white !important
+
 i.fas.fa-cloud-arrow-down
   color :#FFB851
 
@@ -247,7 +298,7 @@ i.fas.fa-cloud-arrow-down
 .slyder-a__bullets__item--active
   background-color: #ae0000
   border: 1px solid #ae0000
-.acordion__accion__btn--b
+.acordion__accion__btn--b, .acordion__accion__btn--a
   background-color: #ae0000
   border: 1px solid #ae0000
   color: white

@@ -41,7 +41,7 @@
           p.mb-0.text-center Mostrar contenido dinámico.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p.mb-4 Todo eso requiere JavaScript para funcionar correctamente.
+        p Todo eso requiere JavaScript para funcionar correctamente.
         p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo! Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo full-stack utilizando un solo lenguaje.
         .row.justify-content-center.align-items-center.mb-4
             .col-lg-12
@@ -98,47 +98,47 @@
               p MiClase.java
               p.mb-0 Es importante respetar las letras en mayúsculas y las letras en minúsculas; es decir, el nombre del archivo debe ser exactamente el que se muestra en la línea 1, así también, la extensión debe ser .java. Como cualquier nuevo conocimiento, conforme se realicen más ejercicios, poco a poco se irá familiarizando con la estructura general de los programas en Java. 
     p.mb-4.text-center A continuación, se da la explicación de cada línea del código:
-    .BG05.p-5.mb-4
+    .BG05.px-5.py-3.p-4.mb-4
       .tarjeta--fondo2.p-4
         PasosB.color-acento-botones
           .row(titulo="")
 
-            .col-md-6
+            .col-lg-6.col-12.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img4.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h5 Línea 1: class MiClase {
               p Marca el inicio de la definición de la clase MiClase. En Java, todo programa debe contar con al menos una clase. Para declarar dicha clase se utiliza la palabra reservada class, seguida del nombre que identificará la clase. Las palabras reservadas siempre se escriben en minúsculas y son exclusivas del lenguaje Java. Finalmente, la llave de apertura { indica que, a partir de ese punto, todo el contenido pertenece a esa clase.
 
           .row(titulo="")
-            .col-md-6
+            .col-lg-6.col-12.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img5.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h5 Línea 2: public static void main(String[] args){
               p Corresponde al método que se ejecuta para iniciar el programa. Por ahora no es necesario comprender completamente esta línea; a medida que se avance en el aprendizaje, se entenderá el significado de cada una de sus partes. Lo importante es reconocer que todo programa en Java necesita una clase, y dentro de ella debe existir un método main para poder ejecutarse. Al final de la línea se observa nuevamente una llave de apertura {, la cual señala el comienzo de las instrucciones que ejecutará el programa.
 
           .row(titulo="")
-            .col-md-6
+            .col-lg-6.col-12.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h5 Línea 3: System.out.println(“Hola mundo”);
               p Se encarga de mostrar el texto Hola mundo en la pantalla. Es importante notar que, al ejecutar el programa, el mensaje aparece sin las comillas dobles. En Java, las cadenas de texto se escriben entre comillas dobles. Aunque aún no se comprenda cada parte de esta instrucción, con el tiempo se logrará entender en detalle. Por ahora, si se desea imprimir texto en pantalla, basta con utilizar la instrucción mostrada en esta línea.
 
           .row(titulo="")
-            .col-md-6
+            .col-lg-6.col-12.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img7.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h5 Línea 4: } // Fin del método main
               p Inicia con una llave de cierre }, lo cual indica el término de las instrucciones que forman parte del método main. Al utilizar dos barras diagonales //, todo el contenido que sigue en esa misma línea es ignorado por el compilador de Java. Esto se conoce como comentario de línea y se utiliza para añadir aclaraciones o información que facilite la comprensión del código.
 
           .row(titulo="")
-            .col-md-6
+            .col-lg-6.col-12.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img8.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h5 Línea 5: } // Fin de la clase MiClase
               p Comienza también con una llave de cierre }, indicando el final del cuerpo de la clase MiClase. Esta línea incluye un comentario de línea, por lo que todo el texto que aparece después de las dos barras diagonales // será ignorado por el compilador hasta que se llegue a la siguiente línea. Todos los programas en Java seguirán esta misma estructura.
     p.mb-4.text-center Por otra parte, los símbolos en Java son importantes, pues son la estructura del programa como tal y para que su ejecución se dé, se tiene lo siguiente:
@@ -366,8 +366,9 @@
               p.mb-0 n%=5;
               p.mb-0 n=n%5;
               p.mb-0 Estos dos ejemplos dan el mismo resultado
-          .col-lg-4
-            img(src='@/assets/curso/temas/tema3/img17.svg' alt='AvatarTop')
+          .col-lg-4.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/temas/tema3/img17.svg' alt='AvatarTop')
     .BG01.px-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -380,7 +381,7 @@
           p.mb-0 operador % para Modulo (resto), ejemplo c=a%b 
           p.mb-4 operador ++ para Incrementar, ejemplo a++ ; significa a=a+1 operador -- para Decrementar, ejemplo a--; significa a=a-1
           .row.justify-content-center.align-items-center
-            .col-lg-5
+            .col-lg-5.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img18.png' alt='AvatarTop') 
             .col-lg-7
@@ -402,7 +403,7 @@
       h5 Orden de evaluación 
     p.mb-3 En JavaScript se refiere a la forma en que el intérprete determina qué partes de una expresión se ejecutan primero y en qué secuencia. Esto es importante porque puede influir directamente en el resultado de una operación. Dentro de ellos se encuentran:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           .row(numero="A" titulo="Precedencia de operadores")
             p.mb-1 JavaScript utiliza reglas de precedencia para definir qué operadores se evalúan primero.
@@ -442,7 +443,7 @@
               .tarjeta--fondo4.p-2
                 p.mb-0.text-white false && console.log('Hola');
                 p.mb-0.text-white El mensaje no se ejecuta porque el resultado ya es false.
-      .col-lg-4
+      .col-lg-4.col-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img19.png', alt='')
     .row.justify-content-center.align-items-center
@@ -483,7 +484,7 @@
         p.mb-0 Los siguientes, son los tipos de expresiones:
     
     .row.justify-content-center.BG02.p-4
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema3/img21.png", alt="alt").img400.m-auto
       .col-lg-8
@@ -531,7 +532,7 @@
             .p-2
               .tarjeta--fondo4.p-2
                 p.mb-0.text-white const suma = function(a, b) { return a + b; };
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta--fondo1.p-4.mb-4
           p.mb-2 Las expresiones en JavaScript se evalúan siguiendo reglas de precedencia, asociatividad y uso de paréntesis.
@@ -546,12 +547,12 @@
             p.mb-0 let b = (10 + 5) * 2; // ¿Cuál es el resultado?
             p.mb-0 #[b Ejercicio 3]
             p.mb-0 let c = (5 > 3) && (2 < 1); // ¿Cuál es el resultado?
-          .col-lg-7
+          .col-lg-7.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema3/img22.png", alt="alt").img400.m-auto
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3.col-6.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/tema3/img23.svg", alt="alt").img400.m-auto
       .col-lg-9
@@ -614,7 +615,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-5
+          .col-lg-5.order-2.order-lg-1
             p.mb-2 Igualmente, se presentan los siguientes ejercicios prácticos:
             p.mb-0 #[b Ejercicio 1]
             p.mb-0 Crear una función que reciba un número y devuelva su cuadrado.
@@ -622,7 +623,7 @@
             p.mb-0 Crear una función que reciba un nombre y muestre un saludo.
             p.mb-0 #[b Ejercicio 3]
             p.mb-0 Crear una función flecha que multiplique dos números.
-          .col-lg-7
+          .col-lg-7.col-10.mb-4.mb-lg-0.order-1.order-lg-2
             figure
               img(src="@/assets/curso/temas/tema3/img24.png", alt="alt").img400.m-auto
         p.mb-4.text-center Comprendiendo lo que tiene que ver tanto con las expresiones, como con las funciones, se relaciona la importancia de cada una:
@@ -650,7 +651,7 @@
       h5 Comentarios
     p.mb-4 Los comentarios en el lenguaje de programación Java se utilizan para añadir anotaciones o mensajes aclaratorios dentro del código; no son ejecutados y se clasifican en tres tipos:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-8.order-2.order-lg-1
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Comentarios de una sola línea")
             .col-md-12.mb-4.mb-md-0
@@ -681,7 +682,7 @@
                 p.mb-0.text-white  /* * *
                 p.mb-0.text-white  @author jorger
                 p.mb-0.text-white  */
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img27.png', alt='Texto que describa la imagen')
     separador
@@ -692,10 +693,10 @@
       .py-3.py-md-4(titulo="Estructura if")
         .px-4
           .row.justify-content-center.align-items-center.mb-5
-            .col-md-6
+            .col-lg-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema3/img28.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               p.mb-3 Se utiliza para ejecutar un bloque de código si una condición es verdadera.
                 p.mb-0 #[b Ejemplo: ]
                 .tarjeta--fondo4.p-3
@@ -705,10 +706,10 @@
       .py-3.py-md-4(titulo="Estructura if - else")
         .px-4
           .row.justify-content-center.align-items-center.mb-5
-            .col-md-6
+            .col-lg-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema3/img29.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               p.mb-3 Permite ejecutar un bloque de código si la condición es verdadera y otro si es falsa.
                 p.mb-0 #[b Ejemplo: ]
                 .tarjeta--fondo4.p-3
@@ -720,10 +721,10 @@
       .py-3.py-md-4(titulo="Estructura if - else if - else")
         .px-4
           .row.justify-content-center.align-items-center.mb-5
-            .col-md-6
+            .col-lg-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema3/img30.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               p.mb-3 Se utiliza para evaluar múltiples condiciones.
                 p.mb-0 #[b Ejemplo: ]
                 .tarjeta--fondo4.p-3
@@ -737,10 +738,10 @@
       .py-3.py-md-4(titulo="Estructura switch")
         .px-4
           .row.justify-content-center.align-items-center.mb-5
-            .col-md-6
+            .col-lg-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema3/img31.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               p.mb-3 Permite seleccionar una opción entre múltiples casos.
                 p.mb-0 #[b Ejemplo: ]
                 .tarjeta--fondo4.p-3
@@ -757,10 +758,10 @@
       .py-3.py-md-4(titulo="Operador ternario")
         .px-4
           .row.justify-content-center.align-items-center.mb-5
-            .col-md-6
+            .col-lg-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema3/img32.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               p.mb-3 Es una forma abreviada de la estructura if-else.
                 p.mb-0 #[b Ejemplo: ]
                 .tarjeta--fondo4.p-3
@@ -933,15 +934,15 @@
     p.mb-4.text-center Las diferencias principales entre estas sentencias son:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         .bloque-texto-gg.tarjeta--fondo7
           .bloque-texto-gg__texto.p-4
             h5.mb-0 break
-            p.mb-0 finaliza completamente un ciclo o switch.
+            p.mb-0 Finaliza completamente un ciclo o switch.
           .bloque-texto-gg__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img36.svg')})`}"
           )           
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         .bloque-texto-gg.tarjeta--fondo7
           .bloque-texto-gg__texto.p-4
             h5.mb-0 continue
@@ -949,7 +950,7 @@
           .bloque-texto-gg__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img37.svg')})`}"
           )           
-      .col-lg-4
+      .col-lg-4.col-8
         .bloque-texto-gg.tarjeta--fondo7
           .bloque-texto-gg__texto.p-4
             h5.mb-0 return
