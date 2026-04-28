@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="396" height="567" viewBox="0 0 396 567">
+  <g id="img8_1" transform="translate(-393.711 -3399)">
+    <rect id="Rectangle_458857" data-name="Rectangle 458857" width="396" height="567" transform="translate(393.711 3399)" fill="#cfe8ff"/>
+    <g id="Rectangle_458858" data-name="Rectangle 458858" transform="translate(432.711 3587)" fill="#fff" stroke="#ae0000" stroke-width="2" stroke-dasharray="2">
+      <rect width="62" height="38" stroke="none"/>
+      <rect x="1" y="1" width="60" height="36" fill="none"/>
+    </g>
+    <g id="Rectangle_458859" data-name="Rectangle 458859" transform="translate(432.711 3505)" fill="#fff" stroke="#ae0000" stroke-width="2" stroke-dasharray="2">
+      <rect width="62" height="38" stroke="none"/>
+      <rect x="1" y="1" width="60" height="36" fill="none"/>
+    </g>
+    <g id="Rectangle_458860" data-name="Rectangle 458860" transform="translate(415.711 3423)" fill="#fff" stroke="#ae0000" stroke-width="2" stroke-dasharray="2">
+      <rect width="36" height="38" stroke="none"/>
+      <rect x="1" y="1" width="34" height="36" fill="none"/>
+    </g>
+    <text id="try_Código_que_puede_generar_un_error_catch_error_Código_para_manejar_el_error_finally_Código_que_siempre_se_ejecuta_" data-name="try  {
+// Código que puede generar un error
+}   catch  (error) {
+// Código para manejar el error
+}  finally  {
+// Código que siempre se ejecuta," transform="translate(424.711 3431)" fill="#12263f" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.003em"><tspan x="0" y="19" xml:space="preserve">try  {</tspan><tspan x="0" y="59">// Código que puede generar un error</tspan><tspan x="0" y="99" xml:space="preserve">}   catch  (error) {</tspan><tspan x="0" y="139">// Código para manejar el error</tspan><tspan x="0" y="179" xml:space="preserve">}  finally  {</tspan><tspan x="0" y="219">// Código que siempre se ejecuta,</tspan></text>
+    <text id="_ocurra_o_no_un_error_" data-name=" ocurra o no un error
+}" transform="translate(424.711 3653)" fill="#12263f" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.003em"><tspan x="0" y="19" xml:space="preserve"> ocurra o no un error</tspan><tspan x="0" y="49">}</tspan></text>
+    <g id="Group_1185096" data-name="Group 1185096" transform="translate(3 -18)">
+      <rect id="Rectangle_458862" data-name="Rectangle 458862" width="376" height="223" transform="translate(400.711 3736)" fill="#fff"/>
+      <g id="Rectangle_458863" data-name="Rectangle 458863" transform="translate(407.711 3745)" fill="#fff" stroke="#ae0000" stroke-width="2" stroke-dasharray="2">
+        <rect width="62" height="38" stroke="none"/>
+        <rect x="1" y="1" width="60" height="36" fill="none"/>
+      </g>
+      <text id="try_" data-name="try  " transform="translate(427.711 3753)" fill="#12263f" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.003em"><tspan x="0" y="19" xml:space="preserve">try  </tspan></text>
+      <text id="Ejecuta_el_bloque_de_código_y_verifica_si_se_produce_algún_error." data-name="Ejecuta el bloque de código y verifica si se produce algún error." transform="translate(477.711 3743)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">Ejecuta el bloque de código y verifica si </tspan><tspan x="0" y="41">se produce algún error.</tspan></text>
+      <text id="Se_ejecuta_cuando_ocurre_un_error_en_el_bloque_try_capturando_el_objeto_de_error." data-name="Se ejecuta cuando ocurre un error en el bloque try, capturando el objeto de error." transform="translate(477.711 3821)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">Se ejecuta cuando ocurre un error en el </tspan><tspan x="0" y="41">bloque try, capturando el objeto de </tspan><tspan x="0" y="65">error.</tspan></text>
+      <text id="Ejecuta_el_código_independientemente_de_si_ocurrió_o_no_un_error_es_opcional_._" data-name="Ejecuta el código independientemente de si ocurrió o no un error (es opcional).
+" transform="translate(477.711 3909)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">Ejecuta el código independientemente </tspan><tspan x="0" y="41">de si ocurrió o no un error (es opcional).</tspan><tspan x="0" y="65"></tspan></text>
+      <g id="Rectangle_458866" data-name="Rectangle 458866" transform="translate(407.711 3825)" fill="#fff" stroke="#ae0000" stroke-width="2" stroke-dasharray="2">
+        <rect width="62" height="38" stroke="none"/>
+        <rect x="1" y="1" width="60" height="36" fill="none"/>
+      </g>
+      <g id="Rectangle_458867" data-name="Rectangle 458867" transform="translate(407.711 3913)" fill="#fff" stroke="#ae0000" stroke-width="2" stroke-dasharray="2">
+        <rect width="62" height="38" stroke="none"/>
+        <rect x="1" y="1" width="60" height="36" fill="none"/>
+      </g>
+      <text id="catch_" data-name="catch  " transform="translate(415.711 3833)" fill="#12263f" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.003em"><tspan x="0" y="19" xml:space="preserve">catch  </tspan></text>
+      <text id="finally_" data-name="finally  " transform="translate(414.711 3921)" fill="#12263f" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.003em"><tspan x="0" y="19" xml:space="preserve">finally  </tspan></text>
+    </g>
+  </g>
+</svg>

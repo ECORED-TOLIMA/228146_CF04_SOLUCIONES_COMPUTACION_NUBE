@@ -2,31 +2,173 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
+    top: 70%
     right: 10%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 34%
+    right: 80%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 46%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 400px !important 
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.banner-interno__titulo__icono
+    background-color: #000
+    color: #000 !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #000000
 
-figcaption
-  font-weight: normal
+.bloque-texto-ggg-imagen.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg__img 
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-gg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-gg__texto
+  position: relative
+  width: 75%
+.bloque-texto-gg--inverso
+  justify-content: flex-start
+
+.bloque-texto-gg-imagen 
+  .bloque-texto-gg__img 
+    width: 36%
+  .bloque-texto-gg__texto
+    width: 60%
+
+.bloque-texto-ggg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-ggg__texto
+  position: relative
+  width: 66%
+  
+
+.bloque-texto-gg--inverso 
+  .bloque-texto-gg__img
+    left: auto
+    right: 0
+
+.BG01
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BG02
+  background-image: url("../assets/curso/temas/tema1/imgfondo1.svg")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -2.7rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta-bg1
+  background-color: #CFE8FF
+.tarjeta-bg2
+  background-color: #A4E7F0
+.tarjeta-bg3
+  background-color: #9ED1FF
+.tarjeta-bg4
+  background-color:#FFE79E
+.tarjeta-bg5
+  background-color:#69D7E5
+.tarjeta--tabla:nth-child(even)
+  background-color: #FFF7DF
+
+.tarjeta--tabla4:nth-child(even)
+  background-color:#FFFDC8
+
+.tarjeta--tabla
+  background-color: #D5F4F8
+.tarjeta--tabla3
+  background-color: #CFE8FF
+
+.tarjeta--slyder
+  background-color: $white
+.cajon-color-primario
+  background-color: #D5F4F8
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #6CB9FF
+.linea-tiempo-d
+  
+  .tarjeta--gris
+    background-color: #F1E6EF
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #CFE8FF
+.linea-tiempo-d__item__content__slot
+  background-color: #CFE8FF
+
+i.fas.fa-cloud-arrow-down
+  color :#FFB851
+
+.fa-chevron-right, .fa-chevron-left
+  color: $color-acento_botones
+
+.titulo
+  background-color:#FFE79E
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  
+.titulo h5
+  margin-right: 23px
+  margin-bottom: 0px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px

@@ -5,8 +5,18 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Entornos de desarrollo y configuración del proyecto
+    separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.1 Entornos de codificación
 
+    separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.2 Instalación y configuración del entorno
+
+    separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.3 Creación de proyectos de programación
 </template>
 
 <script>
