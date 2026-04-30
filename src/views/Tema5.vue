@@ -22,7 +22,7 @@
     separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1 Depuración de código
-    p.mb-4 La depuración de código (debugging) es el proceso mediante el cual los desarrolladores identifican, analizan y corrigen errores dentro de un programa. En JavaScript, esta práctica es fundamental debido a que muchos errores se detectan en tiempo de ejecución.
+    p.mb-4 La depuración de código (#[i debugging]) es el proceso mediante el cual los desarrolladores identifican, analizan y corrigen errores dentro de un programa. En JavaScript, esta práctica es fundamental debido a que muchos errores se detectan en tiempo de ejecución.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.text-center
         .titulo3.p-4(data-aos="fade-left")

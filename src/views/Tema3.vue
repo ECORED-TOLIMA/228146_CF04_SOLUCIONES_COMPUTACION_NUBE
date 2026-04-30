@@ -42,7 +42,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Todo eso requiere JavaScript para funcionar correctamente.
-        p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo! Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo full-stack utilizando un solo lenguaje.
+        p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo! Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo #[i full-stack] utilizando un solo lenguaje.
         .row.justify-content-center.align-items-center.mb-4
             .col-lg-12
               .bloque-texto-gg.color-primario
@@ -57,7 +57,7 @@
                       | Aplicaciones móviles.
                     li
                       i.fas.fa-cloud-arrow-down
-                      | Sistemas completos (frontend + backend).
+                      | Sistemas completos (#[i frontend] + #[i backend]).
                     li
                       i.fas.fa-cloud-arrow-down
                       | Juegos.
@@ -83,11 +83,31 @@
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
                 p.text-white.mb-1 MiClase.java
-                p.text-white.mb-1 class MiClase { 
-                p.text-white.mb-2 public static void main(String[] args){ 
-                p.text-white.ms-3.mb-4  System.out.println(“Hola mundo”);
-                p.text-white.ms-2.mb-1    } // Fin del método main 
-                p.text-white.ms-1.mb-2   } // Fin de la clase MiClase
+                .row.justify-content-center
+                  .col-lg-1
+                    p.text-white.mb-0 1
+                  .col-lg-11
+                    p.text-white.mb-1 class MiClase { 
+                .row.justify-content-center
+                  .col-lg-1
+                    p.text-white.mb-0 2
+                  .col-lg-11
+                    p.text-white.mb-2 public static void main(String[] args){ 
+                .row.justify-content-center
+                  .col-lg-1
+                    p.text-white.mb-0 3
+                  .col-lg-11
+                    p.text-white.ms-3.mb-1  System.out.println(“Hola mundo”);
+                .row.justify-content-center
+                  .col-lg-1
+                    p.text-white.mb-0 4
+                  .col-lg-11
+                    p.text-white.ms-2.mb-1    } // Fin del método main 
+                .row.justify-content-center
+                  .col-lg-1
+                    p.text-white.mb-0 5
+                  .col-lg-11
+                    p.text-white.ms-1.mb-2   } // Fin de la clase MiClase
                 p.text-white.mb-1 Hola mundo
           figcaption #[b Nota:] escriba el código del ejemplo anterior en un editor de texto plano, guarde el archivo con el nombre y extensión.            
         .tarjeta-bg3.p-4
@@ -218,7 +238,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .titulo2.p-3.mb-4(data-aos="fade-left")
-          h5 a) Tipos de datos primitivos
+          h5.mb-0 a) Tipos de datos primitivos
         p.mb-4 Los tipos de datos utilizados en el lenguaje de programación Java, conocidos como tipos de datos primitivos, incluyen para números enteros: byte, short, int y long; para números reales: float y double; para valores lógicos: boolean; y para caracteres: char. El tamaño de estos tipos de datos primitivos está definido por la plataforma Java y se clasifican de la siguiente manera:
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-12
@@ -277,7 +297,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo2.p-3.mb-4(data-aos="fade-left")
-          h5 b) Tipos de datos referencia
+          h5.mb-0 b) Tipos de datos referencia
         p En Java, los objetos (instancias de clases) se gestionan mediante referencias. Cuando se crea una nueva instancia de una clase utilizando el operador new, este retorna una referencia del tipo de la clase. Para comprenderlo mejor, se relaciona un ejemplo:
         p.mb-4 Se tiene definida e implementada una clase llamada factorial, como se muestra a continuación:
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
@@ -344,7 +364,7 @@
           .col-lg-8
             .tarjeta--fondo1.p-4
               .titulo2.p-2.mb-4(data-aos="fade-left")
-                h5 a) Operadores de asignación Java operador
+                h5.mb-0 a) Operadores de asignación Java operador
               p.mb-0 = para Asignación simple,
               p.mb-0 ejemplo:
               p.mb-0 C = 8;
@@ -373,7 +393,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-10
           .titulo2.p-2.mb-3(data-aos="fade-left")
-            h5 b) Operadores aritméticos Java
+            h5.mb-0 b) Operadores aritméticos Java
           p.mb-0 operador + para Suma, ejemplo c=a+b
           p.mb-0 operador - para Resta, ejemplo c=a-b
           p.mb-0 operador * para Multiplicación, ejemplo c=a*b
@@ -386,7 +406,7 @@
                 img(src='@/assets/curso/temas/tema3/img18.png' alt='AvatarTop') 
             .col-lg-7
               .titulo2.p-2.mb-3(data-aos="fade-left")
-                h5 c) Operadores relacionales Java
+                h5.mb-0 c) Operadores relacionales Java
               p.mb-0 operador < para Menor a operador > para Mayor a
               p.mb-0 operador <= para Menor o igual a 
               p.mb-0 operador >= para Mayor o igual a 
@@ -394,7 +414,7 @@
               p.mb-2 operador != para Diferente a
 
               .titulo2.p-2.mb-3(data-aos="fade-left")
-                h5 d) Operadores lógicos Java
+                h5.mb-0 d) Operadores lógicos Java
               p.mb-0 operador !  para No (Complemento
               p.mb-0 operador && para y (And)}
               p.mb-0 operador || para o (or)

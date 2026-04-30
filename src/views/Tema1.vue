@@ -21,7 +21,7 @@
         p.mb-0 Las estructuras de control permiten dirigir el flujo del programa. Entre ellas se encuentran:
       
     .tarjeta--container.row.mb-4(data-aos="flip-up")
-      .col-md.tarjeta.tarjeta-bg2.p-5
+      .col-md.tarjeta.tarjeta-bg2.p-4
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -29,15 +29,15 @@
           
         h5.text-center Estructuras secuenciales
         p Conjunto de instrucciones que se ejecutan de manera continua y ordenada, una después de la otra, siguiendo el flujo natural del programa.
-      .col-md.tarjeta.tarjeta-bg4.p-5
+      .col-md.tarjeta.tarjeta-bg4.p-4
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
           
         h5.text-center Estructuras condicionales
-        p Permiten evaluar condiciones y tomar decisiones, ejecutando diferentes acciones según se cumpla o no una condición (if, else).
-      .col-md.tarjeta-bg3.p-5
+        p.mb-0 Permiten evaluar condiciones y tomar decisiones, ejecutando diferentes acciones según se cumpla o no una condición (if, else).
+      .col-md.tarjeta-bg3.p-4
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -479,7 +479,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img23.svg', width='180', alt='Texto que describa la imagen')
             .col-lg-10
-              p.mb-0 La asociatividad no es solo unirse: es organizarse con propósito. Cuando la cooperación se convierte en estructura, los objetivos individuales se transforman en logros colectivos.
+              p.mb-0 La elección del lenguaje impacta la arquitectura del sistema, los tiempos de entrega y el mantenimiento del #[i software], por lo que es fundamental analizar las características técnicas antes de decidir.
   
 
 

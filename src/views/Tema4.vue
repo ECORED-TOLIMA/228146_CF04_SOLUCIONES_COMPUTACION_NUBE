@@ -16,7 +16,7 @@
             img(src='@/assets/curso/temas/tema4/img1.svg' alt="Imagen decorativa")
         p.text-center #[b Arreglos (arrays)]
         p.text-center.mb-3 Permiten almacenar múltiples valores en una sola variable.
-        p.text-center.mb-0 Ejemplo
+        p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
               p.text-white.mb-1 let numeros = [1, 2, 3, 4];
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-right")
@@ -25,7 +25,7 @@
             img(src='@/assets/curso/temas/tema4/img2.svg' alt="Imagen decorativa")
         p.text-center #[b Objetos (objects)]
         p.text-center.mb-3 Permiten almacenar información en pares clave–valor.
-        p.text-center.mb-0 Ejemplo
+        p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
               p.text-white.mb-1 let persona = {
               p.text-white.mb-1  nombre: 'Juan',
@@ -37,7 +37,7 @@
             img(src='@/assets/curso/temas/tema4/img3.svg' alt="Imagen decorativa")
         p.text-center #[b Pilas (stacks)]
         p.text-center.mb-3 Siguen el principio LIFO (último en entrar, primero en salir).
-        p.text-center.mb-0 Ejemplo
+        p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
               p.text-white.mb-1 let pila = [];
               p.text-white.mb-1  pila.push(1);
@@ -48,7 +48,7 @@
             img(src='@/assets/curso/temas/tema4/img4.svg' alt="Imagen decorativa")
         p.text-center #[b Colas (queues)]
         p.text-center.mb-3 Siguen el principio FIFO (primero en entrar, primero en salir).
-        p.text-center.mb-0 Ejemplo
+        p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
               p.text-white.mb-1 let cola = [];
               p.text-white.mb-1  cola.push(1);
@@ -61,7 +61,7 @@
         .cajon-color-primario.p-4.h-100
           p.mb-3.text-center #[b Búsqueda]
           p.mb-2 Permite encontrar un elemento dentro de una lista.
-          p.mb-2 Ejemplo
+          p.mb-2 Ejemplo:
 
           .tarjeta--fondo5.p-4.mb-4
               p.text-white.mb-1 function buscar(lista, valor) {
@@ -74,7 +74,7 @@
         .cajon-color-primario.p-4.h-100
           p.mb-3.text-center #[b Ordenamiento]
           p.mb-2 Permite organizar los datos.
-          p.mb-2 Ejemplo
+          p.mb-2 Ejemplo:
 
           .tarjeta--fondo5.p-4.mb-4
               p.text-white.mb-1 function ordenar(lista) {
@@ -92,7 +92,7 @@
         .cajon-color-primario.p-4.h-100
           p.mb-3.text-center #[b Recorrido]
           p.mb-2 Consiste en visitar cada elemento de una estructura.
-          p.mb-2 Ejemplo
+          p.mb-2 Ejemplo:
 
           .tarjeta--fondo5.p-4.mb-4
               p.text-white.mb-1 let numeros = [1,2,3];
@@ -122,7 +122,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.text-center
         .titulo3.p-4(data-aos="fade-left")
-          p Ejemplo de Arreglos en java:
+          p.mb-0 Ejemplo de Arreglos en java:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
@@ -298,8 +298,8 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.text-center
         .titulo3.p-4(data-aos="fade-left")
-          p Complejidad: O(n²).
-    p.mb-4.text-center Ejemplo
+          p.mb-0 Complejidad: O(n²).
+    p.mb-4.text-center Ejemplo:
     .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex

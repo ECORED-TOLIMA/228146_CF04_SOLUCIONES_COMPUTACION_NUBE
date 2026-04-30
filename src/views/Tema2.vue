@@ -347,7 +347,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Diseño del modelo de datos
-    p.mb-4 Es donde se deben identificar cuáles son los agentes involucrados en el sistema de información y nombrarlas en un formato de lenguaje agnóstico. El siguiente es uno ejemplo de este lenguaje:
+    p.mb-4 Es donde se deben identificar cuáles son los agentes involucrados en el sistema de información y nombrarlas en un formato de lenguaje agnóstico. El siguiente es un ejemplo de este lenguaje:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
