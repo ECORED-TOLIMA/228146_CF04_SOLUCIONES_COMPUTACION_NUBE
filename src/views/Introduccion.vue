@@ -15,12 +15,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Adicionalmente, los entornos de desarrollo permiten escribir y organizar código mediante herramientas como editores o IDEs, junto con la instalación y configuración necesarias y la creación de proyectos; en JavaScript, la sintaxis define el uso de tipos de datos, operadores, expresiones, funciones y comentarios, así como estructuras de selección (if, switch), repetición (for, while) y salto (break, continue, return).
     p.mb-4(data-aos="flip-up") Finalmente, las estructuras de datos y algoritmos permiten organizar y procesar información mediante vectores, matrices, registros, métodos de ordenamiento y técnicas de búsqueda; finalmente, la depuración y manejo de errores incluye la identificación de fallas de sintaxis y lógica, así como el uso de mecanismos como try-catch para controlar excepciones durante la ejecución del programa.
-    .row.justify-content-center.align-items-center
-      .col-lg-12
-        figure(data-aos="zoom-in")
-          .video
-            iframe(width="1401" height="788" src="https://www.youtube.com/embed/2L91WMqw96A" title="Conceptos básicos de programación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-            
+               
 </template>
 
 <script>
