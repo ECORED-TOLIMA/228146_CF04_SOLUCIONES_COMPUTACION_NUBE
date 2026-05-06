@@ -851,7 +851,7 @@
     p.mb-4 Las estructuras de repetición permiten ejecutar un conjunto de instrucciones de manera repetida, ya sea un número determinado de veces o mientras se cumpla una condición específica. En Java, los bucles for y while son ampliamente utilizados para automatizar tareas repetitivas y controlar el flujo del programa de forma eficiente, según las necesidades de cada situación.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Repetición sobre un rango determinado:
+      h5 Repetición sobre un rango determinado: for
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p.mb-3 El for es una estructura de repetición que permite ejecutar un conjunto de instrucciones tantas veces como sea necesario. Esta estructura consta de tres partes fundamentales: la variable de inicio, la condición y el incremento.
