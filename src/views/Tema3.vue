@@ -886,7 +886,7 @@
             p.text-white.mb-1  }
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Repeticiones condicionales: whileRepeticiones condicionales: while
+      h5 Repeticiones condicionales: while
     p El while, al igual que el for, es una estructura de repetición; la diferencia principal es que el while no requiere una variable de control ni un incremento explícito, ya que solo necesita una condición para ejecutarse. El while evalúa dicha condición y, si se cumple, ejecuta el bloque de instrucciones; posteriormente vuelve a evaluar la condición. Cuando esta deja de cumplirse, el ciclo se detiene y el programa continúa con su flujo normal.
     p.mb-4 Su sintaxis y funcionamiento son similares a los de C/C++. En la estructura while, la condición se evalúa antes de ejecutar el bloque de instrucciones.
     .row.justify-content-center.align-items-center
