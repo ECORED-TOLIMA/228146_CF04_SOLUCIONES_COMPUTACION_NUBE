@@ -116,7 +116,7 @@
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2 Fallas de sintaxis
     p.mb-4 En el desarrollo de #[i software], uno de los errores más comunes que enfrentan los programadores son las fallas de sintaxis, también conocidas como SyntaxError. Estas ocurren cuando el código escrito no cumple con las reglas gramaticales del lenguaje de programación, impidiendo que el intérprete o el motor de JavaScript pueda comprender y ejecutar correctamente el programa.
-    p.mb-4 JavaScript, al ser un lenguaje interpretado, analiza el código antes de ejecutarlo. Durante este proceso, si detecta una estructura incorrecta —como paréntesis sin cerrar, comillas mal utilizadas, palabras reservadas mal escritas o una mala organización del código— genera un error de sintaxis y detiene la ejecución del programa. Esto significa que, a diferencia de otros errores, las fallas de sintaxis deben corregirse obligatoriamente antes de que el código pueda ejecutarse.                
+    p.mb-4 JavaScript, al ser un lenguaje interpretado, analiza el código antes de ejecutarlo. Durante este proceso, si detecta una estructura incorrecta — como paréntesis sin cerrar, comillas mal utilizadas, palabras reservadas mal escritas o una mala organización del código — genera un error de sintaxis y detiene la ejecución del programa. Esto significa que, a diferencia de otros errores, las fallas de sintaxis deben corregirse obligatoriamente antes de que el código pueda ejecutarse.                
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-4
@@ -171,7 +171,7 @@
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 a) Generar errores personalizados
     p.mb-4 Es posible generar errores de forma manual utilizando la instrucción throw.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
@@ -199,7 +199,7 @@
           .col-lg-10.text-center
             .titulo3.p-4(data-aos="fade-left")
               p ¿Cuándo usar el manejo de errores de JavaScript?
-        p.mb-4.text-center El manejo de errores en JavaScript es fundamental en situaciones donde pueden presentarse problemas inesperados. Algunos casos comunes son:
+        p.mb-0.text-center El manejo de errores en JavaScript es fundamental en situaciones donde pueden presentarse problemas inesperados. Algunos casos comunes son:
     .row.justify-content-center.mb-4
       .col-md-6.col-lg-4.mb-4
         .tarjeta-foto-hover

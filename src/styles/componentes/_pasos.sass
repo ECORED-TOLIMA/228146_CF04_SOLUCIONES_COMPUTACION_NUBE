@@ -257,6 +257,17 @@
 
     .horizontal-scroll
       align-items: baseline !important
+
+    &:has(.pasos-b__header__item:first-child.pasos-b__header__item--active)
+      .pasos-b__header__btn--left
+        visibility: hidden
+        pointer-events: none
+
+    &:has(.pasos-b__header__item:last-child.pasos-b__header__item--active)
+      .pasos-b__header__btn--right
+        visibility: hidden
+        pointer-events: none
+
   @media (max-width: $bp-max-sm)
     &__header
       &__items

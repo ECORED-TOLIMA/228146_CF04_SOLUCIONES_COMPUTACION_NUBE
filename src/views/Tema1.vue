@@ -1,4 +1,4 @@
-<template lang="pug">
+﻿<template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
@@ -16,9 +16,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
       )
 
-    .row.justify-content-center.mb-4
-      .col-lg-8(data-aos="flip-up")
-        p.mb-0 Las estructuras de control permiten dirigir el flujo del programa. Entre ellas se encuentran:
+    p.mb-4 Las estructuras de control permiten dirigir el flujo del programa. Entre ellas se encuentran:
       
     .tarjeta--container.row.mb-4(data-aos="flip-up")
       .col-md.tarjeta.tarjeta-bg2.p-4
@@ -47,7 +45,7 @@
         p Facilitan la ejecución de un bloque de instrucciones varias veces, mientras se cumpla una condición o durante un número definido de iteraciones (for, while).
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10(data-aos="flip-up")
+      .col-lg-12(data-aos="flip-up")
         p.mb-4 Otro aspecto importante es la sintaxis, que corresponde a las reglas que definen cómo se debe escribir el código en un lenguaje de programación. Una sintaxis incorrecta genera errores que impiden la ejecución del programa.
         p.mb-4 La lógica de programación es fundamental, ya que permite construir soluciones coherentes. Un programa puede estar bien escrito sintácticamente, pero si su lógica es incorrecta, no producirá los resultados esperados.
         p.mb-0 Los lenguajes de programación se clasifican en:
@@ -82,12 +80,12 @@
             iframe(width="1401" height="788" src="https://www.youtube.com/embed/S2n1fsyxr4U" title="Conceptos básicos de programación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
     p.mb-4(data-aos="fade-right") Ejemplos de tipos de datos que existen en lenguajes de programación son: 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12(data-aos="fade-right")
+      .col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
           span Tipos de datos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-right")
+      .col-lg-10(data-aos="fade-right")
         .tabla-a.color-acento-contenido 
           .tabla-a     
             table
@@ -96,7 +94,8 @@
                   th.text-center Tipo de dato
                   th.text-center Representación
                   th.text-center Tamaño (bytes)
-                  th.text-center Rango de valores
+                  th.text-center(style="width: 227px;")
+                    p.mb-0 Rango de valores
                   th.text-center Valor por defecto
                   th.text-center Clase asociada
               tbody
@@ -125,7 +124,10 @@
                   td.text-center: b long
                   td Numérico entero con signo
                   td.text-center 8
-                  td -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+                  td.text-center
+                    span.d-block -9,223,372,036,854,775,808
+                    span.d-block a
+                    span.d-block 9,223,372,036,854,775,807
                   td.text-center 0L
                   td Long
                 tr
@@ -166,7 +168,7 @@
 
     .BG01.px-5
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-10(data-aos="fade-right")
+        .col-lg-12(data-aos="fade-right")
           p Los operadores permiten realizar operaciones sobre los datos, existen operadores aritméticos, relacionales y lógicos que permiten construir expresiones más complejas.
           p.mb-0 Estos son algunos Ejemplos:
       .row.justify-content-center.align-items-center.mb-4
@@ -278,11 +280,10 @@
             h5.text-center.mb-4 Funciones
             p.text-center.mb-5 Reutilización de código.
     
+    p El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
+    p.mb-4 Se debe tener presente:
     .row.justify-content-center.align-items-center
       .col-lg-10(data-aos="fade-right")
-        p El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
-        p.mb-4 Se debe tener presente:
-
         .tarjeta-bg1.p-4
           ul.lista-ul
             li
@@ -320,11 +321,6 @@
             li
               i.fas.fa-cloud-arrow-down
               | La revisión de código permite detectar errores y mejorar soluciones.
-
-            li
-              i.fas.fa-cloud-arrow-down
-              | El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
-
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Tipos de lenguajes de programación: compilados e interpretados
