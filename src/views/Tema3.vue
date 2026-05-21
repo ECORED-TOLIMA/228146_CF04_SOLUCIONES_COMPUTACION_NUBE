@@ -677,13 +677,13 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-3 Inician con los caracteres // seguidos del contenido del comentario.
               p.mb-0 #[b Ejemplo: ]
-              .tarjeta--fondo4
+              .tarjeta--fondo4.p-4
                 p.mb-0.text-white // Atributos int a,b,c; // a,b,c representan atributos enteros de la clase
           .row(titulo="Comentarios de bloques")
             .col-md-12.mb-4.mb-md-0
               p.mb-3 Comienzan con los caracteres /* en cualquier parte de la línea de código, continúan con el contenido del comentario y finalizan con los caracteres /
               p.mb-0 #[b Ejemplo: ]
-              .tarjeta--fondo4
+              .tarjeta--fondo4.p-4
                 p.mb-0.text-white /
                 p.mb-0.text-white  Texto de los comentarios en bloque
                 p.mb-0.text-white  / comentarios en bloque
@@ -694,7 +694,7 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-3 Se utilizan para documentar el programa. Empiezan con los caracteres /** en cualquier parte de la línea de instrucción, luego se escribe el contenido del comentario y finalizan con los caracteres /
               p.mb-0 #[b Ejemplo: ]
-              .tarjeta--fondo4
+              .tarjeta--fondo4.p-4
                 p.mb-0.text-white /*
                 p.mb-0.text-white  Texto de los comentarios de documentación
                 p.mb-0.text-white  /

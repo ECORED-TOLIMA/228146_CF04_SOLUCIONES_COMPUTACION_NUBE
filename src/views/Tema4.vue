@@ -223,17 +223,17 @@
           .tarjeta.tarjeta--slyder.p-4
             p.mb-3 #[b • Aplicaciones prácticas]
             p.mb-3 Las matrices se utilizan en múltiples escenarios como:            
-            p.mb-0 o Representación de tablas de datos.
-            p.mb-0 o Juegos (tableros).
-            p.mb-0 o Procesamiento de imágenes.
-            p.mb-0 o Sistemas de coordenadas.
+            p.mb-0 - Representación de tablas de datos.
+            p.mb-0 - Juegos (tableros).
+            p.mb-0 - Procesamiento de imágenes.
+            p.mb-0 - Sistemas de coordenadas.
 
           .tarjeta.tarjeta--slyder.p-4
             p.mb-3 #[b • Buenas prácticas]
-            p.mb-0 o Mantener filas del mismo tamaño.
-            p.mb-0 o Validar índices antes de acceder.
-            p.mb-0 o Usar nombres descriptivos.
-            p.mb-0 o Evitar estructuras desordenadas.
+            p.mb-0 - Mantener filas del mismo tamaño.
+            p.mb-0 - Validar índices antes de acceder.
+            p.mb-0 - Usar nombres descriptivos.
+            p.mb-0 - Evitar estructuras desordenadas.
     
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")

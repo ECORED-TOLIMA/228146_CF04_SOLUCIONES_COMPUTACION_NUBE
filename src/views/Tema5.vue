@@ -26,7 +26,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.text-center
         .titulo3.p-4(data-aos="fade-left")
-          p ¿Qué es la depuración?
+          p.mb-0 ¿Qué es la depuración?
     p.text-center La depuración consiste en detectar errores, analizar el comportamiento del programa y corregir fallos en la lógica del código.
     p.mb-3.text-center Las siguiente son las herramientas de depuración:
 
@@ -198,7 +198,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-10.text-center
             .titulo3.p-4(data-aos="fade-left")
-              p ¿Cuándo usar el manejo de errores de JavaScript?
+              p.mb-0 ¿Cuándo usar el manejo de errores de JavaScript?
         p.mb-0.text-center El manejo de errores en JavaScript es fundamental en situaciones donde pueden presentarse problemas inesperados. Algunos casos comunes son:
     .row.justify-content-center.mb-4
       .col-md-6.col-lg-4.mb-4

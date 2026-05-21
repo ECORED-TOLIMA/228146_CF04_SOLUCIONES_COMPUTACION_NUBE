@@ -155,7 +155,7 @@
           h5 a) Instalación de herramientas básicas
         .row.justify-content-center.align-items-center.mb-4
             .col-lg-12
-              .bloque-texto-gg.color-primario
+              .bloque-texto-gg.bloque-texto-gg--inverso.tarjeta-bg1
                 .bloque-texto-gg__texto.p-4
                   ul.lista-ul
                     li
@@ -254,7 +254,7 @@
       .row.justify-content-between.align-items-center
         .col-sm-auto.d-none.d-lg-block
           figure
-            img(src='@/assets/curso/temas/tema2/img12.svg', width='180', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/img13.svg', width='180', alt='Texto que describa la imagen')
         .col.mb-3.mb-sm-0
           h5.mb-1 JavaScript macOS
           p.mb-0 Este documento relaciona una guía de ayuda sobre instalación y uso de Java en macOS, donde se explica cómo obtener Java para Mac, los requisitos del sistema, las instrucciones para instalarlo y actualizarlo, así como otros aspectos como activar o desinstalar Java y cómo comprobar la versión instalada, todo desde la documentación oficial de Java.com.
