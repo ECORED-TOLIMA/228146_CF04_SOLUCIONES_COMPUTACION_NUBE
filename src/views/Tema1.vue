@@ -55,7 +55,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.tarjeta-bg5
+          .tarjeta.tarjeta-bg5
             .p-4
               h5 Compilados
               p Necesitan que el código fuente sea traducido completamente a código máquina antes de ejecutarse. Este proceso genera un archivo ejecutable, mejora el rendimiento del programa y permite detectar muchos errores antes de la ejecución.
@@ -63,7 +63,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.tarjeta-bg5
+          .tarjeta.tarjeta-bg5
             .p-4
               h5 Interpretados
               p Se ejecutan a través de un intérprete que traduce y ejecuta el código instrucción por instrucción en tiempo real. Esto facilita la prueba, la corrección de errores y la adaptación del programa a distintos entornos.
