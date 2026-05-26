@@ -101,20 +101,20 @@
                       th Limitaciones
                   tbody
                     tr
-                      th.text-center Editor
-                      td VS Code
-                      td Ligero, rápido
-                      td Configurar extensiones.
+                      th(style="background-color: #F0F8FF").text-center Editor
+                      td(style="background-color: #F0F8FF") VS Code
+                      td(style="background-color: #F0F8FF") Ligero, rápido
+                      td(style="background-color: #F0F8FF") Configurar extensiones.
                     tr
                       th.text-center IDE
                       td IntelliJ
                       td Completo
                       td Mayor consumo.
                     tr
-                      th.text-center Nube
-                      td Replit
-                      td Accesible
-                      td Depende de internet.
+                      th(style="background-color: #F0F8FF").text-center Nube
+                      td(style="background-color: #F0F8FF") Replit
+                      td(style="background-color: #F0F8FF") Accesible
+                      td(style="background-color: #F0F8FF") Depende de internet.
         p.text-center.mb-4 Sus buenas prácticas en el uso de entornos se dan al momento de:
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-6.mb-3

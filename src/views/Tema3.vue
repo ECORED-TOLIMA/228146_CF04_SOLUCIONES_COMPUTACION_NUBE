@@ -256,17 +256,17 @@
                       th Primitiva
                       th Definición
                   tbody
-                    tr
+                    tr(style="background-color: #F0F8FF")
                       th.text-center(rowspan="4") Entero
                       td byte
                       td Entero en complemento a dos.
-                    tr
+                    tr(style="background-color: #F0F8FF")
                       td short
                       td con signo de 8 bits.
-                    tr
+                    tr(style="background-color: #F0F8FF")
                       td int
                       td con signo de 16 bits.
-                    tr
+                    tr(style="background-color: #F0F8FF")
                       td long
                       td con signo de 32 bits.
                     tr

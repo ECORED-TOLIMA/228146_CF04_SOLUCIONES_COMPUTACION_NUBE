@@ -1,14 +1,16 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 1.5s ease-in-out infinite alternate
     position: absolute
     top: 70%
     right: 10%
+    width: 150px
   &-2
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float1 1.5s ease-in-out infinite alternate
     position: absolute
-    top: 34%
+    top: 14%
     right: 80%
+    width: 150px
   &-3
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
@@ -26,7 +28,10 @@
 
   100%
     transform: translateX(0px)
-
+.banner-principal .tarjeta
+  background-position: left 50% !important
+.banner-principal__row .banner-principal__img
+  width: 500px !important
 .banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
@@ -277,7 +282,7 @@ i.fas.fa-cloud-arrow-down
   background-color:#FFE79E
   color: black
   border-radius: 50px
-  height: 31px
+  height: 43px
   display: inline-flex
   align-items: center
   justify-content: flex-start

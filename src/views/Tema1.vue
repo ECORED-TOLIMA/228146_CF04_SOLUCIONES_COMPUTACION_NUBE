@@ -100,12 +100,12 @@
                   th.text-center Clase asociada
               tbody
                 tr
-                  td.text-center: b byte
-                  td Numérico entero con signo
-                  td.text-center 1
-                  td -128 a 127
-                  td.text-center 0
-                  td Byte
+                  td(style="background-color: #F0F8FF").text-center: b byte
+                  td(style="background-color: #F0F8FF") Numérico entero con signo
+                  td(style="background-color: #F0F8FF").text-center 1
+                  td(style="background-color: #F0F8FF") -128 a 127
+                  td(style="background-color: #F0F8FF").text-center 0
+                  td(style="background-color: #F0F8FF") Byte
                 tr
                   td.text-center: b short
                   td Numérico entero con signo
@@ -114,12 +114,12 @@
                   td.text-center 0
                   td Short
                 tr
-                  td.text-center: b int
-                  td Numérico entero con signo
-                  td.text-center 4
-                  td -2,147,483,648 a 2,147,483,647
-                  td.text-center 0
-                  td Integer
+                  td(style="background-color: #F0F8FF").text-center: b int
+                  td(style="background-color: #F0F8FF") Numérico entero con signo
+                  td(style="background-color: #F0F8FF").text-center 4
+                  td(style="background-color: #F0F8FF") -2,147,483,648 a 2,147,483,647
+                  td(style="background-color: #F0F8FF").text-center 0
+                  td(style="background-color: #F0F8FF") Integer
                 tr
                   td.text-center: b long
                   td Numérico entero con signo
@@ -131,12 +131,12 @@
                   td.text-center 0L
                   td Long
                 tr
-                  td.text-center: b float
-                  td Coma flotante (simple, IEEE 754)
-                  td.text-center 4
-                  td ±3.4×10^38
-                  td.text-center 0.0f
-                  td Float
+                  td(style="background-color: #F0F8FF").text-center: b float
+                  td(style="background-color: #F0F8FF") Coma flotante (simple, IEEE 754)
+                  td(style="background-color: #F0F8FF").text-center 4
+                  td(style="background-color: #F0F8FF") ±3.4×10^38
+                  td(style="background-color: #F0F8FF").text-center 0.0f
+                  td(style="background-color: #F0F8FF") Float
                 tr
                   td.text-center: b double
                   td Coma flotante (doble, IEEE 754)
@@ -145,12 +145,12 @@
                   td.text-center 0.0d
                   td Double
                 tr
-                  td.text-center: b char
-                  td Carácter Unicode
-                  td.text-center 2
-                  td \u0000 a \uFFFF
-                  td.text-center \u0000
-                  td Character
+                  td(style="background-color: #F0F8FF").text-center: b char
+                  td(style="background-color: #F0F8FF") Carácter Unicode
+                  td(style="background-color: #F0F8FF").text-center 2
+                  td(style="background-color: #F0F8FF") \u0000 a \uFFFF
+                  td(style="background-color: #F0F8FF").text-center \u0000
+                  td(style="background-color: #F0F8FF") Character
                 tr
                   td.text-center: b boolean
                   td Dato lógico
@@ -159,12 +159,12 @@
                   td.text-center false
                   td Boolean
                 tr
-                  td.text-center: b void
-                  td Ausencia de valor
-                  td.text-center -
-                  td -
-                  td.text-center -
-                  td Void
+                  td(style="background-color: #F0F8FF").text-center: b void
+                  td(style="background-color: #F0F8FF") Ausencia de valor
+                  td(style="background-color: #F0F8FF").text-center -
+                  td(style="background-color: #F0F8FF") -
+                  td(style="background-color: #F0F8FF").text-center -
+                  td(style="background-color: #F0F8FF") Void
 
     .BG01.px-5
       .row.justify-content-center.align-items-center.mb-4
@@ -415,30 +415,30 @@
                       th Impacto
                   tbody
                     tr
-                      th.text-center Ejecución
-                      td Previo a ejecución
-                      td En tiempo real
-                      td Velocidad vs flexibilidad
+                      th(style="background-color: #F0F8FF").text-center Ejecución
+                      td(style="background-color: #F0F8FF") Previo a ejecución
+                      td(style="background-color: #F0F8FF") En tiempo real
+                      td(style="background-color: #F0F8FF") Velocidad vs flexibilidad
                     tr
                       th.text-center Rendimiento
                       td Alto
                       td Medio
                       td Optimización vs facilidad
                     tr
-                      th.text-center Errores
-                      td En compilación
-                      td En ejecución
-                      td Detección temprana vs dinámica
+                      th(style="background-color: #F0F8FF").text-center Errores
+                      td(style="background-color: #F0F8FF") En compilación
+                      td(style="background-color: #F0F8FF") En ejecución
+                      td(style="background-color: #F0F8FF") Detección temprana vs dinámica
                     tr
                       th.text-center Portabilidad
                       td Dependiente del sistema
                       td Alta
                       td Compatibilidad
                     tr
-                      th.text-center Ejemplos
-                      td C, C++
-                      td Python, JS
-                      td Aplicación práctica 
+                      th(style="background-color: #F0F8FF").text-center Ejemplos
+                      td(style="background-color: #F0F8FF") C, C++
+                      td(style="background-color: #F0F8FF") Python, JS
+                      td(style="background-color: #F0F8FF") Aplicación práctica 
         p.mb-0 La elección entre un lenguaje compilado o interpretado depende del contexto del proyecto, incluyendo requisitos de rendimiento y velocidad de desarrollo; además, se debe tener en cuenta lo siguiente:
     
     .row.mb-4
